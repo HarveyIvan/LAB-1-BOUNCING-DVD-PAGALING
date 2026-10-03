@@ -1,0 +1,15 @@
+* { box-sizing: border-box; }
+body { margin: 0; padding: 28px 24px; background: #14161b; color: #f3f4f7; font-family: Arial, sans-serif; }
+main { width: 800px; margin: 0 auto; }
+header { display: flex; justify-content: space-between; align-items: center; margin-bottom: 20px; }
+.eyebrow { margin: 0 0 9px; color: #a3a9bc; font-size: 10px; font-weight: bold; letter-spacing: 2px; }
+h1 { margin: 0; font-size: 26px; letter-spacing: -0.5px; }
+.author { margin: 8px 0 0; color: #a3a9bc; font-size: 12px; }
+button { padding: 10px 20px; border: 1px solid #424756; border-radius: 8px; background: #252935; color: white; font: 13px Arial, sans-serif; cursor: pointer; }
+button:hover { background: #363c4c; }
+button:focus-visible { outline: 3px solid #82a2ff; outline-offset: 3px; }
+#dvdCanvas { display: block; width: 800px; height: 800px; background: black; }
+footer { display: flex; justify-content: space-between; margin-top: 16px; color: #b4bbca; font-size: 12px; }
+#errorMessage { padding: 16px; background: #47252b; }
+/* Keep the required 800 × 800 scene; narrow screens can scroll. */
+@media (max-width: 847px) { main { margin: 0; } }
